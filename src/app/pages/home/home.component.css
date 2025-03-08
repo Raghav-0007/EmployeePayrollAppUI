@@ -1,0 +1,31 @@
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(246, 211, 217);
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .card {
+    width: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #4e0564;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .card:hover {
+    background-color: #0056b3;
+  }
+  
